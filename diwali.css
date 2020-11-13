@@ -1,0 +1,130 @@
+div{
+    text-align: center;
+    background-color: white;
+    /* display: inline; */
+    width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+body{
+    background: url("https://a.studyax.com/Pics/bdbd.gif") no-repeat ;
+    background-size: cover;
+}
+
+div>h1{
+    background: url("https://a.studyax.com/Pics/bdbd.gif");
+    color: #fff;
+    /* margin-top: 120px; */
+    position: absolute;
+    left: 700px;
+    /* width: 100px; */
+    /* margin-bottom: 20px; */
+}
+
+img{
+    width: 500px;
+}
+
+.img1{
+    margin-top: 100px;
+    animation: width 1s linear infinite;
+}
+
+@keyframes width{
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25,.75,1);
+        transform: scale3d(1.25,.75,1);
+    }
+    40% {
+        -webkit-transform: scale3d(.75,1.25,1);
+        transform: scale3d(.75,1.25,1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15,.85,1);
+        transform: scale3d(1.15,.85,1);
+    }
+    65% {
+        -webkit-transform: scale3d(.95,1.05,1);
+        transform: scale3d(.95,1.05,1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05,.95,1);
+        transform: scale3d(1.05,.95,1);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+.img2{
+ animation: zoom 1s linear infinite;   
+}
+
+@keyframes zoom{
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05,1.05);
+        transform: scale3d(1.05,1.05,1.05);
+    }
+    100%{
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+.p1{
+    text-shadow: 1px 1px 3px black;
+     font-size: 25px;
+        color:#ff9933; 
+}
+.p2{
+    text-shadow: 1px 1px 3px black;
+     font-size: 25px;
+        color:pink; 
+}
+.p3{
+    text-shadow: 1px 1px 3px black;
+     font-size: 25px;
+        color:#00ffbf; 
+}
+.p4{
+    text-shadow: 1px 1px 3px black;
+     font-size: 25px;
+        color:red; 
+}
+
+.p5{
+    text-shadow: 1px 1px 3px black;
+    font-size: 25px;
+       color:#FFC107;    
+}
+
+marquee>i{
+    text-shadow: 1px 1px 3px black;
+    font-size: 25px;
+       color:#0000ff;   
+}
+
+.glow{
+    width: 50%;
+    padding: 2px;
+    background-color: #FF1493;
+    animation: glow 2s infinite;
+    font-size: 25px;
+    font-family: 'Ranga', cursive;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px 2px 6px black;
+}
